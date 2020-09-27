@@ -9,6 +9,7 @@ python-dotenv = "*"
 [packages]
 "discord.py" = "*"
 psycopg2 = "*"
+pyqt5 = "*"
 
 [requires]
 python_version = "3.8"

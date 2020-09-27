@@ -60,7 +60,7 @@ class Game(commands.Cog):
 
         embed = self.get_status(discord.Embed(
             title='DORK',
-            description='Welcome to Dork, a port of ZORK to Discord.',
+            description='Welcome to DORK, a port of ZORK to Discord.',
             color=0x00ff00))
 
         await ctx.send(embed=embed)
