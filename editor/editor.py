@@ -27,8 +27,7 @@ class Editor(QMainWindow):
         action_save.triggered.connect(self.print_tree)
 
     def print_tree(self):
-        tree = self.tree_view.model.rootItem.toDict()
-        print(tree)
+        print(self.tree_view.toDict())
 
 
 if __name__ == '__main__':
